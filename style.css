@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sekuya-regular {
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.google-sans-<uniquifier> {
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+}
+
+body {
+    background-color: black;
+    color: #CCFF00 font-family: 'Sekuya', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #CCFF00;
+    color: black;
+    height: 200px;
+    font-family: "Sekuya", system-ui;
+}
+
+.logo {
+    font-size: 80px;
+}
+
+.navigation {
+    font-size: 14px;
+    text-align: left;
+}
+
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    /*To Remove Bullet Points from unordered list*/
+    list-style: none;
+    margin: 0 25px;
+    margin-top: 22%;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 23px 0;
+}
+
+.leftsection {
+    color: black;
+    background-color: #CCFF00;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+.rightsection {
+    color: black;
+    background-color: #CCFF00;
+    justify-content: space-around;
+    margin: 23px 0;
+}
