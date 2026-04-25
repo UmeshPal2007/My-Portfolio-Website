@@ -9,13 +9,12 @@
     font-style: normal;
 }
 
-.google-sans-<uniquifier> {
-    font-family: "Google Sans", sans-serif;
+
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-    font-variation-settings:
-        "GRAD" 0;
 }
 
 body {
@@ -29,15 +28,17 @@ nav {
     align-items: center;
     background-color: #CCFF00;
     color: black;
-    height: 200px;
+    height: 150px;
     font-family: "Sekuya", system-ui;
+    border-color: black;
 }
 
-.logo {
-    font-size: 80px;
+#logo {
+    line-height: 100%;
+    font-size: 300%;
 }
 
-.navigation {
+#navigation {
     font-size: 14px;
     text-align: left;
 }
@@ -45,32 +46,40 @@ nav {
 
 nav ul {
     display: flex;
-
 }
 
 nav ul li {
     /*To Remove Bullet Points from unordered list*/
     list-style: none;
     margin: 0 25px;
-    margin-top: 22%;
+    margin-top: 120px;
 }
 
-.firstsection {
+#section1 {
+    color: #CCFF00;
     display: flex;
     justify-content: space-around;
-    margin-top: 23px 0;
-}
-
-.leftsection {
-    color: black;
-    background-color: #CCFF00;
-    justify-content: space-around;
     margin: 23px 0;
 }
 
-.rightsection {
-    color: black;
-    background-color: #CCFF00;
-    justify-content: space-around;
-    margin: 23px 0;
+#section1 div {
+    width: 50%;
+}
+
+#leftsection {
+    color: #CCFF00;
+    text-transform: capitalize;
+    height: 280px;
+    font-size: 42px;
+    border-radius: 20px;
+    border-color: #CCFF00;
+    border-style: solid;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: "Sekuya", system-ui;
+}
+
+img {
+    width: 750px;
+    height: 600px;
 }
