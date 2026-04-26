@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/* FONT STYLES */
 .sekuya-regular {
     font-family: "Sekuya", system-ui;
     font-weight: 400;
@@ -24,42 +25,74 @@ body {
     font-family: "Sekuya", system-ui;
 }
 
-/* NAV */
-nav {
+#ul {
+    display: flex;
+    background-color: wheat;
+    height: 30px;
+    width: 400px;
+    margin-left: 530px;
+}
+
+
+
+
+
+
+/* IMPORTANT */
+
+header {
+    display: flex;
+    background-color: red;
+    height: 140px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* LOGO */
+#logo {
+    line-height: 100%;
+    font-size: 400%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #f7b801;
     color: black;
-    height: 150px;
+    height: 130px;
     font-family: "Sekuya", system-ui;
-    border-color: black;
-}
-
-/* LOGO */
-#logo {
-    line-height: 100%;
-    font-size: 300%;
+    margin-left: 10px;
+    margin-top: 3px;
 }
 
 /* NAVIGATION OPTIONS */
-#options {
-    font-size: 14px;
-    text-align: left;
+ul {
+    display: inline-flex;
+    background-color: wheat;
+    height: 30px;
+    width: 400px;
+    margin-left: 530px;
 }
 
-/* NAV-UNORDERED LIST SPACING */
-nav ul {
-    display: flex;
+
+a {
+    color: white;
 }
 
-/* NAV-UNORDERED LIST-LIST ITEMS SPACING */
-nav ul li {
+
+li {
     /*To Remove Bullet Points from unordered list*/
     list-style: none;
     margin: 0 25px;
     margin-top: 120px;
+    font-family: "Inter", sans-serif;
 }
+
+#li-box {
+    display: inline-flex;
+    height: 10px;
+    width: 930px;
+    margin-top: 50px;
+}
+
 
 /* SECTION SPACING */
 #section1 {
