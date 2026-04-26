@@ -69,18 +69,18 @@ nav ul li {
     margin: 23px 0;
 }
 
-
 #Hello {
     color: black;
     background-color: #f7b801;
     text-transform: capitalize;
     width: 100px;
     height: 70px;
-    font-size: 64px;
-    margin-left: 20px;
+    font-size: 50px;
+    margin-left: 10px;
     font-family: "Sekuya", system-ui;
     border-radius: 15px;
-    line-height: 100px;
+    line-height: 80px;
+
 }
 
 #mynameis {
@@ -88,11 +88,11 @@ nav ul li {
     background-color: #f7b801;
     text-transform: none;
     height: 70px;
-    font-size: 64px;
-    margin-left: 135px;
+    font-size: 50px;
+    margin-left: 100px;
     font-family: "Sekuya", system-ui;
     border-radius: 15px;
-    line-height: 100px;
+    line-height: 80px;
 }
 
 #umeshpal {
@@ -100,11 +100,11 @@ nav ul li {
     background-color: #f7b801;
     text-transform: capitalize;
     height: 70px;
-    font-size: 64px;
-    margin-left: 250px;
+    font-size: 50px;
+    margin-left: 270px;
     font-family: "Sekuya", system-ui;
     border-radius: 15px;
-    line-height: 100px;
+    line-height: 80px;
 }
 
 img {
