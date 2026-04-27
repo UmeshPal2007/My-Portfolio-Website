@@ -48,8 +48,12 @@ nav ul li {
     font-family: "Sekuya", system-ui;
 }
 
-a {
+nav ul li a {
     color: #f2e8cf;
+}
+
+nav ul li a:hover {
+    color: #6a994e;
 }
 
 #logo {
