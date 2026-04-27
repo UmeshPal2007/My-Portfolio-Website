@@ -46,10 +46,12 @@ nav ul li {
     margin: 0 23px;
     margin-top: 120px;
     font-family: "Inter", sans-serif;
+    font-size: 1.02rem;
 }
 
 nav ul li a {
     color: #f2e8cf;
+    margin: 20px;
 }
 
 nav ul li a:hover {
@@ -96,8 +98,8 @@ nav ul li a:hover {
 }
 
 #umeshpal {
-    color: #386641;
-    background-color: #f2e8cf;
+    color: #f2e8cf;
+    background-color: #bc4749;
     text-transform: capitalize;
     height: 70px;
     font-size: 50px;
@@ -117,4 +119,10 @@ img {
     display: flex;
     justify-content: space-around;
     margin: 23px 0;
+}
+
+#element {
+    margin-left: 400px;
+    color: #386641;
+    background-color: #f2e8cf;
 }

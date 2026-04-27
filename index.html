@@ -38,13 +38,28 @@
             <div>
                 <span id="Hello">Hello !</span><br>
                 <span id="mynameis">My Name is</span><br>
-                <span id="umeshpal">Umesh Pal.</span>
+                <span id="umeshpal">Umesh Pal.</span><br>
+
+                <!-- Element to contain animated typing -->
+                <span id="element"></span>
             </div>
             <div>
                 <img src="/My-Portfolio-Website/dev.png" alt="background image">
             </div>
         </section>
     </main>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer,', 'Tech Educator &amp;','a Content Creator'],
+            typeSpeed: 50,
+        });
+
+    </script>
 </body>
 
 </html>
