@@ -71,6 +71,16 @@ nav ul li a:hover {
 }
 
 /* Important */
+
+#Myimage {
+    background-image: url(future-web.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+
 #Hello {
     color: #386641;
     background-color: #f2e8cf;
@@ -125,14 +135,4 @@ img {
     margin-left: 400px;
     color: #386641;
     background-color: #f2e8cf;
-}
-
-
-
-#Myimage {
-    background-image: url(future-web.png);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    height: 100px;
-    width: 100px;
 }
