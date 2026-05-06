@@ -72,12 +72,12 @@ nav ul li a:hover {
 
 /* Important */
 
-#Myimage {
+#section2 {
     background-image: url(future-web.png);
+    background-position: 100px;
     background-repeat: no-repeat;
-    background-size: 100px;
-    height: 100px;
-    width: 100px;
+    background-size: 550px;
+    background-attachment: scroll;
 }
 
 
@@ -120,7 +120,6 @@ nav ul li a:hover {
 }
 
 img {
-    width: 750px;
     height: 600px;
 }
 
