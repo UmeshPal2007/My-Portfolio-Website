@@ -21,18 +21,16 @@
 
 /* BODY */
 body {
-    background-color: #386641;
+    background-color: #10002b;
     font-family: "Sekuya", system-ui;
 }
-
-/* IMPORTANT */
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 150px;
-    background-color: #bc4749;
+    background-color: #240046;
 }
 
 nav ul {
@@ -55,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #6a994e;
+    color: #E0AAFF;
     font-size: 17px;
 }
 
@@ -70,10 +68,8 @@ nav ul li a:hover {
     font-family: "Sekuya", system-ui;
 }
 
-/* Important */
 
 #section2 {
-    background-image: url(future-web.png);
     background-position: 100px;
     background-repeat: no-repeat;
     background-size: 550px;
@@ -82,7 +78,7 @@ nav ul li a:hover {
 
 
 #Hello {
-    color: #386641;
+    color: #10002b;
     background-color: #f2e8cf;
     text-transform: capitalize;
     width: 100px;
@@ -96,7 +92,7 @@ nav ul li a:hover {
 }
 
 #mynameis {
-    color: #386641;
+    color: #10002b;
     background-color: #f2e8cf;
     text-transform: none;
     height: 70px;
@@ -108,8 +104,8 @@ nav ul li a:hover {
 }
 
 #umeshpal {
-    color: #f2e8cf;
-    background-color: #bc4749;
+    color: #10002b;
+    background-color: #f2e8cf;
     text-transform: capitalize;
     height: 70px;
     font-size: 50px;
@@ -132,6 +128,6 @@ img {
 
 #element {
     margin-left: 400px;
-    color: #386641;
+    color: #10002b;
     background-color: #f2e8cf;
 }
