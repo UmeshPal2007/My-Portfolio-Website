@@ -30,7 +30,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 150px;
+    width: 100%;
     background-color: #240046;
+    border: 1px solid #E0AAFF;
+    position: fixed;
+    top: 0px;
+    z-index: 5;
 }
 
 nav ul {
@@ -70,10 +75,8 @@ nav ul li a:hover {
 
 
 #section2 {
-    background-position: 100px;
-    background-repeat: no-repeat;
-    background-size: 550px;
-    background-attachment: scroll;
+    position: relative;
+    top: 150px;
 }
 
 
@@ -116,13 +119,15 @@ nav ul li a:hover {
 }
 
 img {
-    height: 600px;
+    height: 400px;
+    position: relative;
+    top: 150px;
 }
 
 #section1 {
     color: #E0AAFF;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 23px 0;
 }
 
