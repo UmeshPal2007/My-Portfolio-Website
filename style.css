@@ -1,4 +1,4 @@
-/* UNIVERSAL */
+/* UNIVERSAL TAGS */
 * {
     margin: 0;
     padding: 0;
@@ -6,17 +6,16 @@
 
 /* FONT STYLES */
 .sekuya-regular {
-    font-family: "Sekuya", system-ui;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-
-.inter-uniquifier {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 /* BODY */
@@ -46,7 +45,7 @@ nav ul li {
     /*To Remove Bullet Points from unordered list*/
     list-style: none;
     margin: 26px 10px;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.02rem;
 }
 
@@ -160,8 +159,6 @@ img {
 }
 
 #aboutme {
-    /* color: #E0AAFF;
-    font-family: "Sekuya", system-ui; */
     color: #10002b;
     background-color: #f2e8cf;
     text-transform: capitalize;
@@ -178,7 +175,7 @@ img {
 
 #aboutcontent {
     color: #E0AAFF;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: medium;
 }
 
@@ -186,5 +183,5 @@ img {
     position: relative;
     top: 130px;
     color: #f2e8cf;
-    font-family: "Inter", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
