@@ -159,6 +159,7 @@ nav ul li a:hover {
 #section2 {
     margin-left: 50px;
     margin-right: 50px;
+    border-top: 3px dashed #f2e8cf;
 }
 
 #aboutme {
@@ -171,10 +172,11 @@ nav ul li a:hover {
     font-family: "Montserrat", sans-serif;
     line-height: 34px;
     margin-left: 20px;
+    margin-top: 7px;
 }
 
 #aboutcontent {
-    color: #E0AAFF;
+    color: #f2e8cf;
     font-family: "Montserrat", sans-serif;
     font-size: medium;
     margin-left: 20px;
