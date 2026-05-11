@@ -24,6 +24,8 @@ body {
     font-family: "Sekuya", system-ui;
 }
 
+/* index.html Tags */
+
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -35,6 +37,7 @@ nav {
     top: 0px;
     z-index: 5;
     border-bottom: 6px solid #7B2CBF;
+    
 }
 
 nav ul {
@@ -60,6 +63,7 @@ nav ul li a:hover {
     color: #7B2CBF;
     font-size: 16px;
 }
+
 
 #logo {
     line-height: 0%;
@@ -183,3 +187,8 @@ nav ul li a:hover {
     color: #f2e8cf;
     font-family: "Montserrat", sans-serif;
 }
+
+
+
+
+/* projects.html */
