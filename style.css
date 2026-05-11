@@ -81,6 +81,7 @@ nav ul li a:hover {
     border-bottom: 3px dashed #f2e8cf;
 }
 
+
 #section1 {
     display: flex;
     justify-content: space-evenly;
@@ -88,15 +89,12 @@ nav ul li a:hover {
     height: 450px;
     margin-top: -70px;
 }
-
 #section1-A {
     height: 400px;
     position: relative;
     top: 120px;
     width: 50%;
 }
-
-
 #Hello {
     color: #10002b;
     background-color: #f2e8cf;
@@ -108,9 +106,7 @@ nav ul li a:hover {
     border-radius: 15px;
     line-height: 80px;
     margin-left: 20px;
-
 }
-
 #umeshpal {
     color: #10002b;
     background-color: #f5c518;
@@ -122,7 +118,6 @@ nav ul li a:hover {
     border-radius: 15px;
     line-height: 80px;
 }
-
 #iamapassionate {
     color: #10002b;
     background-color: #f2e8cf;
@@ -134,19 +129,18 @@ nav ul li a:hover {
     line-height: 80px;
     margin-left: 20px;
 }
-
 #element {
     margin-left: 20px;
     color: #10002b;
     background-color: #f5c518;
     font-size: 40px;
 }
-
 #section1-B {
     height: 500px;
     position: relative;
     top: 50px;
 }
+
 
 
 #section2 {
@@ -156,9 +150,7 @@ nav ul li a:hover {
     margin-left: 50px;
     margin-right: 50px;
     border-top: 3px dashed #f2e8cf;
-    border-bottom: 3px dashed #f2e8cf;
 }
-
 #aboutme {
     color: #10002b;
     background-color: #f5c518;
@@ -175,7 +167,6 @@ nav ul li a:hover {
     padding: 10px;
     border-radius: 40px;
 }
-
 #section2-A {
     position: relative;
     top: 15px;
@@ -183,7 +174,6 @@ nav ul li a:hover {
     font-family: "Montserrat", sans-serif;
     width: 95%;
 }
-
 #section2-B {
     height: 560px;
     border-radius: 150px;
@@ -191,6 +181,15 @@ nav ul li a:hover {
     margin-bottom: 50px;
     padding: 10px;
     border: 5px solid #7B2CBF;
+}
+
+
+#section3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 3px dashed #f2e8cf;
 }
 
 
