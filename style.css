@@ -18,24 +18,23 @@
     font-style: normal;
 }
 
-/* BODY */
 body {
     background-color: #10002b;
 }
 
-/* index.html Tags */
-
+/* Elements */
 nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 8vh;
+    height: 8%;
     width: 100%;
     background-color: #f2e8cf;
     position: fixed;
     z-index: 5;
-    border-bottom: 6px solid #f5c518;
+    border-bottom: 10px solid #f5c518;
 }
+
 
 nav ul {
     display: flex;
@@ -45,27 +44,29 @@ nav ul {
 nav ul li {
     /*To Remove Bullet Points from unordered list*/
     list-style: none;
-    margin: 1.625em 0.625em;
+    margin: 0.5rem 0.7rem;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.02rem;
+    font-size: 1rem;
 }
 
 nav ul li a {
     color: #10002b;
-    margin: 1.25em;
     font-weight: 600;
     text-decoration: none;
+    font-size: 1.2rem;
+    border: 1px solid #10002b;
+    padding: 5px;
+    border-radius: 25px;
 }
 
 nav ul li a:hover {
     color: #7B2CBF;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
-
 
 #logo {
     line-height: 1;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     color: #10002b;
@@ -74,15 +75,33 @@ nav ul li a:hover {
 }
 
 #banner {
-    margin-top: 4.0625em;
-    height: 27vh;
-    width: 100vw;
-    border-bottom: 0.19rem dashed #f2e8cf;
+    margin-top: 4rem;
+    height: 26vh;
+    width: 100%;
+    border-bottom: 1px solid #f2e8cf;
+}
+
+/* Section 1 */
+#section1 {
+    color: aqua;
+}
+
+#section1-image {
+    color: #7B2CBF;
 }
 
 
 
-/* Section 1 */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -96,6 +115,7 @@ nav ul li a:hover {
     margin-left: 50px;
     margin-right: 50px;
     border-top: 1px solid #f2e8cf;
+
     border-bottom: 1px solid #f2e8cf;
 }
 
@@ -247,4 +267,23 @@ nav ul li a:hover {
 
 
 
-/* projects.html */
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    nav {
+        height: auto;
+        flex-direction: column;
+        padding: 15px 0;
+        align-items: center;
+        gap: 15px;
+    }
+}
