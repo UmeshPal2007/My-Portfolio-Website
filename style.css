@@ -21,7 +21,6 @@
 /* BODY */
 body {
     background-color: #10002b;
-    font-family: "Sekuya", system-ui;
 }
 
 /* index.html Tags */
@@ -30,14 +29,12 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 60px;
+    height: 8vh;
     width: 100%;
     background-color: #f2e8cf;
     position: fixed;
-    top: 0px;
     z-index: 5;
     border-bottom: 6px solid #f5c518;
-
 }
 
 nav ul {
@@ -48,39 +45,39 @@ nav ul {
 nav ul li {
     /*To Remove Bullet Points from unordered list*/
     list-style: none;
-    margin: 26px 10px;
+    margin: 1.625em 0.625em;
     font-family: "Montserrat", sans-serif;
     font-size: 1.02rem;
 }
 
 nav ul li a {
     color: #10002b;
-    margin: 20px;
+    margin: 1.25em;
     font-weight: 600;
     text-decoration: none;
 }
 
 nav ul li a:hover {
     color: #7B2CBF;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
 #logo {
-    line-height: 0%;
-    font-size: 40px;
+    line-height: 1;
+    font-size: 2.5rem;
     display: flex;
     align-items: center;
     color: #10002b;
     font-family: "Montserrat", sans-serif;
-    font-weight: 1000;
+    font-weight: 900;
 }
 
 #banner {
-    margin-top: 65px;
-    height: 200px;
-    width: 100%;
-    border-bottom: 3px dashed #f2e8cf;
+    margin-top: 4.0625em;
+    height: 27vh;
+    width: 100vw;
+    border-bottom: 0.19rem dashed #f2e8cf;
 }
 
 
@@ -174,6 +171,7 @@ nav ul li a:hover {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 #sec3-i {
     position: relative;
     right: 130px;
