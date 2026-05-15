@@ -1,10 +1,10 @@
-/* UNIVERSAL TAGS */
+/*--------------------------------------------- UNIVERSAL TAGS */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* FONT STYLES */
+/*---------------------------------------------- FONT STYLES */
 .montserrat-uniquifier {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -19,10 +19,11 @@
 }
 
 body {
+    width: 100%;
     background-color: #10002b;
 }
 
-/* Elements */
+/*---------------------------------------------- NavBar */
 nav {
     display: flex;
     justify-content: space-evenly;
@@ -77,45 +78,36 @@ nav ul li a:hover {
 #banner {
     margin-top: 8rem;
     height: 12rem;
-    width: 87rem;
+    width: 95.3rem;
     border-bottom: 1px solid #f2e8cf;
+    position: relative;
+    top: -1.8rem;
 }
 
-/* Section 1 */
-#section1 {
-    color: aqua;
-}
+/*----------------------------------------------------- Section 1 */
 
 #section1-text {
     font-family: "Bagel Fat One", system-ui;
-    font-size: 15.9rem;
     color: #f5c518;
+    font-size: 13.2rem;
+    font-weight: lighter;
     position: relative;
-    top: -5rem;
+    top: -7rem;
+    margin-left: 175px;
+    margin-right: 175px;
 }
 
 #section1-image {
-    height: 55rem;
-    width: 87rem;
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+    width: auto;
+    position: relative;
+    top: -23rem;
+    left: 25rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Section 2 */
+/*-------------------------------------------------------- Section 2 */
 
 #section2 {
     display: flex;
@@ -124,11 +116,13 @@ nav ul li a:hover {
     margin-left: 50px;
     margin-right: 50px;
     border-top: 1px solid #f2e8cf;
-
     border-bottom: 1px solid #f2e8cf;
+    position: relative;
+    top: -28rem;
+    width: 86rem;
 }
 
-#sec2-a {
+#aboutMe {
     color: #10002b;
     background-color: #f5c518;
     height: 35px;
@@ -141,7 +135,7 @@ nav ul li a:hover {
     width: 540px;
 }
 
-#sec2-b {
+#heyIam {
     color: #f2e8cf;
     font-family: "Montserrat", sans-serif;
     font-size: 70px;
@@ -150,7 +144,7 @@ nav ul li a:hover {
     top: 15px;
 }
 
-#sec2-c {
+#boldName {
     color: #f5c518;
     font-family: "Montserrat", sans-serif;
     font-size: 70px;
@@ -165,7 +159,7 @@ nav ul li a:hover {
     font-weight: 700;
 }
 
-#sec2-d {
+#aboutHeadline {
     color: #f5c518;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
@@ -173,7 +167,7 @@ nav ul li a:hover {
     top: 10px;
 }
 
-#sec2-e {
+#aboutPara {
     position: relative;
     color: #f2e8cf;
     font-family: "Montserrat", sans-serif;
@@ -181,7 +175,7 @@ nav ul li a:hover {
     top: 20px;
 }
 
-#sec2-f {
+#personalImage {
     height: 550px;
     border-radius: 50px;
     margin-top: 50px;
@@ -192,8 +186,8 @@ nav ul li a:hover {
     border-bottom: 5px solid #f5c518;
 }
 
+/*----------------------------------------------------------Section 3 */
 
-/* Section 3 */
 #section3 {
     display: flex;
     justify-content: space-evenly;
@@ -285,7 +279,7 @@ nav ul li a:hover {
 
 
 
-/* Media Queries */
+/*----------------------------------------------------------Media Queries */
 
 @media (max-width: 768px) {
     nav {
