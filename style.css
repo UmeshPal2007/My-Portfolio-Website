@@ -5,16 +5,16 @@
 }
 
 /* FONT STYLES */
-.sekuya-regular {
-    font-family: "Sekuya", system-ui;
-    font-weight: 400;
-    font-style: normal;
-}
-
 .montserrat-uniquifier {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
+    font-style: normal;
+}
+
+.bagel-fat-one-regular {
+    font-family: "Bagel Fat One", system-ui;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -27,7 +27,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 8%;
+    height: 5rem;
     width: 100%;
     background-color: #f2e8cf;
     position: fixed;
@@ -75,9 +75,9 @@ nav ul li a:hover {
 }
 
 #banner {
-    margin-top: 4rem;
-    height: 26vh;
-    width: 100%;
+    margin-top: 8rem;
+    height: 12rem;
+    width: 87rem;
     border-bottom: 1px solid #f2e8cf;
 }
 
@@ -86,8 +86,17 @@ nav ul li a:hover {
     color: aqua;
 }
 
+#section1-text {
+    font-family: "Bagel Fat One", system-ui;
+    font-size: 15.9rem;
+    color: #f5c518;
+    position: relative;
+    top: -5rem;
+}
+
 #section1-image {
-    color: #7B2CBF;
+    height: 55rem;
+    width: 87rem;
 }
 
 
