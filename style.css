@@ -88,14 +88,23 @@ nav ul li a:hover {
 /*----------------------------------------------------- Section 1 */
 
 #section1-text {
-    font-family: "Bagel Fat One", system-ui;
+font-family: "Bagel Fat One", system-ui;
+    color: #f5c518;
+    font-size: 13.2rem;
+    font-weight: lighter;
+    position: relative;
+    top: 0rem;
+    margin-left: 175px;
+    line-height: 10rem;
+
+    /* font-family: "Bagel Fat One", system-ui;
     color: #f5c518;
     font-size: 13.2rem;
     font-weight: lighter;
     position: relative;
     top: -7rem;
     margin-left: 175px;
-    margin-right: 175px;
+    margin-right: 175px; */
 }
 
 #section1-image {
